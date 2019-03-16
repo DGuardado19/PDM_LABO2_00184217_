@@ -3,63 +3,79 @@
     android:id="@+id/Gridlayout"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:columnCount="3"
-    >
+    android:columnCount="3">
+
     <Button
-    android:id="@+id/boton1"
-    android:layout_column="0"
-    android:layout_row="0"
-    android:background="@drawable/dies"
-    />
+        android:id="@+id/boton1"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:width="120dp"
+        android:height="120dp"
+        android:background="@drawable/dies" />
+
     <Button
         android:id="@+id/boton2"
-        android:layout_column="1"
         android:layout_row="0"
-        android:background="@drawable/uno"
-        />
+        android:layout_column="1"
+        android:width="120dp"
+        android:height="120dp"
+        android:background="@drawable/uno" />
+
     <Button
         android:id="@+id/boton3"
-        android:layout_column="2"
         android:layout_row="0"
-        android:background="@drawable/dos"
-        />
+        android:layout_column="2"
+        android:width="120dp"
+        android:height="120dp"
+        android:background="@drawable/dos" />
+
     <Button
         android:id="@+id/boton4"
-        android:layout_column="0"
         android:layout_row="1"
-        android:background="@drawable/cuatro"
-        />
+        android:layout_column="0"
+        android:width="120dp"
+        android:height="120dp"
+        android:background="@drawable/cuatro" />
+
     <Button
         android:id="@+id/boton5"
-        android:layout_column="1"
         android:layout_row="1"
-        android:background="@drawable/cinco"
-        />
+        android:layout_column="1"
+        android:width="120dp"
+        android:height="120dp"
+        android:background="@drawable/cinco" />
+
     <Button
         android:id="@+id/boton6"
-        android:layout_column="2"
         android:layout_row="1"
-        android:background="@drawable/seis"
-        />
+        android:layout_column="2"
+        android:width="120dp"
+        android:height="120dp"
+        android:background="@drawable/seis" />
+
     <Button
         android:id="@+id/boton7"
-        android:layout_column="0"
         android:layout_row="2"
-        android:background="@drawable/siete"
-        />
+        android:layout_column="0"
+        android:width="120dp"
+        android:height="120dp"
+        android:background="@drawable/siete" />
+
     <Button
         android:id="@+id/boton8"
-        android:layout_column="1"
         android:layout_row="2"
-        android:background="@drawable/ocho"
-        />
+        android:layout_column="1"
+        android:width="120dp"
+        android:height="120dp"
+        android:background="@drawable/ocho" />
+
     <Button
         android:id="@+id/boton9"
-        android:layout_column="2"
         android:layout_row="2"
-        android:background="@drawable/nueve"
-        />
-
+        android:layout_column="2"
+        android:width="120dp"
+        android:height="120dp"
+        android:background="@drawable/nueve" />
 
 
 </GridLayout>

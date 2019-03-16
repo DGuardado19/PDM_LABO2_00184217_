@@ -7,9 +7,10 @@ import android.widget.Button;
 
 import java.util.ArrayList;
 
-public class MainActivity extends AppCompatActivity implements View.OnClickListener{
-    private Button b1, b2,b3,b4,b5,b6,b7,b8,b9;
+public class MainActivity extends AppCompatActivity implements View.OnClickListener {
+    private Button b1, b2, b3, b4, b5, b6, b7, b8, b9;
     private ArrayList<Integer> img = new ArrayList<>();
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -46,14 +47,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         b9.setOnClickListener(this);
 
 
-
     }
 
     @Override
     public void onClick(View v) {
         int foto = v.getId();
-        int n= (int)(Math.random()*10);
-        switch(foto){
+        int n = (int) (Math.random() * 10);
+        switch (foto) {
             case R.id.boton1:
                 b1.setBackgroundResource(img.get(n));
                 break;
